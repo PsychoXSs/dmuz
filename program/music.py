@@ -90,7 +90,7 @@ async def play(c: Client, m: Message):
             try:
                 await user.join_chat(m.chat.username)
             except Exception as e:
-                await m.reply_text(f"❌ **asistan katılamadı**\n\n**reason**: `{e}`")
+                await m.reply_text(f"❌ **Uzgunuz Asistan katılamadı**\n\n**reason**: `{e}`")
                 return
         else:
             try:
