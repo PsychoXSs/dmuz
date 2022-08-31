@@ -140,7 +140,7 @@ async def new_chat(c: Client, m: Message):
         if member.id == bot_id:
             return await m.reply(
                 "❤️ **Gruba eklediğiniz için teşekkürlerr !**\n\n"
-                "**Beni Grubun yöneticisi olarak yükseltin, aksi takdirde düzgün çalışamayacağım ve asistanı davet etmek için /gel yazmayı unutmayın.**\n\n"
+                "**Beni Grubun yöneticisi olarak yükseltin, aksi takdirde düzgün çalışamayacağım ve asistanı davet etmek için /gel yazmayı unutmayınız.**\n\n"
                 "**bunları yaptıktan sonra, /reload yazın**",
                 reply_markup=InlineKeyboardMarkup(
                     [
